@@ -1,0 +1,43 @@
+.content {
+    position: fixed;
+}
+
+.links {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    right: 20px;
+    gap:15px;
+}
+
+a:link,:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: right;
+}
+
+.bottom-content {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    bottom: 20px;
+    left: 20px;
+}
+
+#header-one {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: right;
+    font-weight:500;
+    font-size: 30px;
+    margin: 0;
+}
